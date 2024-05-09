@@ -66,16 +66,22 @@
         .contact p {
             color: #666;
         }
-
-        footer {
-            background: #333;
-            color: #fff;
-            text-align: center;
-            padding: 20px 0;
-            position: absolute;
-            bottom: 0;
-            width: 100%;
-        }
+                
+        /* Site content styles */  
+        .site-content {  
+            display: flex;  
+            flex-direction: column;  
+            min-height: 100vh;  
+        }  
+        
+        /* Updated footer styles */  
+        footer {  
+            background: #333;  
+            color: #fff;  
+            text-align: center;  
+            padding: 20px 0;  
+            margin-top: auto; /* This will push the footer to the bottom */  
+        }  
 
         a {
             color: #333;
